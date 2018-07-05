@@ -26,7 +26,7 @@ class Transfer
       "Transaction rejected. Please check your account balance."
       @status = "rejected"
     end
-    
+
     @sender.balance = 950
     @receiver.balance = 1050
     @status = "complete"
